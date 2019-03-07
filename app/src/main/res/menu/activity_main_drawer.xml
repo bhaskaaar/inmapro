@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_map"
+            android:title="MAP" />
+        <item
+            android:id="@+id/nav"
+            android:icon="@drawable/ic_walk"
+            android:title="NAV" />
+        <item
+            android:id="@+id/det"
+            android:icon="@drawable/ic_desc"
+            android:title="DETAILS" />
+        <item
+            android:id="@+id/abt"
+            android:icon="@drawable/ic_adb"
+            android:title="ABOUT" />
+
+
+    </group>
+
+
+</menu>
